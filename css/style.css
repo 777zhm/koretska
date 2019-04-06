@@ -46,15 +46,17 @@
     margin-bottom: 200px;
     padding: 13px 20px;
     border: 2px solid #83817F;
-    border-radius: 23px;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+    border-radius: 7px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .callback:hover {
-    border-color: #6C7E9B;
     color: #6C7E9B;
+    border-color: #6C7E9B;
+    border-left: 22px solid #6C7E9B;
+    border-right: 22px solid #6C7E9B;
 }
 
 .callback:hover .callback--icon path{
@@ -91,6 +93,10 @@
     width: 20%;
     margin-right: 40px;
     position: relative;
+}
+
+.features--item__contract{
+   margin-right: 0px; 
 }
 
 .features--item::before {
@@ -234,7 +240,6 @@
     transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1195px) {
     .main {
@@ -259,6 +264,10 @@
 
     .features--item {
         margin-right: 25px;
+    }
+
+    .features--item__contract{
+       margin-right: 0px; 
     }
 
     .features--item__line::after {

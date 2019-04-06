@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Корецька Ірина</title>
+	<title>Приватний виконавець Корецька Ірина</title>
 	<link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" href="../css/scaffolding.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -19,7 +19,7 @@
 
 				<nav class="nav">
 					<ul class="nav--list">
-						<button class="nav--close">Закрыть меню</button>
+						<button class="nav--close">Закрити меню</button>
 						<li class="nav--item">
 							<a class="nav--link" href="../pro-nas/index.html">Про нас</a>
 						</li>
@@ -41,26 +41,30 @@
 					<img src="../img/emblem.svg" alt="Герб України" class="main-header--emblem">
 				</div>
 
-				<button class="main-header--mob-btn">Мобильное меню</button>
+				<button class="main-header--mob-btn">Мобільне меню</button>
 			</div>
 		</div>
 	</header>
 
 	<main class="main">
 		<div class="container">
-			<form action="../send.php" class="mail">
+			<form action="send.php" class="mail" method="post">
 				<h1 class="mail--header">Зворотній зв’язок</h1>
 
-				<p class="mail--text">Доброго дня, пані Ірино!</p>
+				<p class="mail--text center_parag">Доброго дня!</p>
 
-				<p class="mail--text">Я маю питання, яке хочу оговорити з Вами.</p>
+				<p class="mail--text">Маю питання, яке хочу оговорити з Вами.</p>
 
-				<label class="mail--text mail--text__label mail--text__left" for="#email">Будь ласка, зв’яжіться зі мною за поштою
-					<input class="mail--input" type="text" name="email" required="" id="email" placeholder="your@email.com">
+				<label class="mail--text mail--text__label mail--text__left" for="useremail">Будь ласка, зв’яжіться зі мною поштою
+					<input class="mail--input" type="text" name="useremail" required="" id="useremail" placeholder="your@email.com">
 				</label>
 
-				<label class="mail--text mail--text__label" for="#name">З повагою,
-					<input class="mail--input" type="text" name="fio" id="name" required="" placeholder="ПІБ">
+				<label class="mail--text mail--text__label mail--text__left" for="#usertelephone">або телефоном
+					<input class="mail--input" type="text" name="usertelephone" required="" id="usertelephone" placeholder="Ваш телефон">
+				</label>
+			
+				<label class="mail--text mail--text__label" for="username">
+					З повагою, <input class="mail--input" type="text" name="username" id="username" required="" placeholder="ПІБ">
 				</label>
 
 				<button class="mail--send" type="submit">Надіслати</button>
@@ -161,8 +165,9 @@
 </li>
 </ul>
 
-<img src="../img/logo.svg" alt="Приватний виконавець Корецька Ірина" class="main-footer--logo">
-
+<a href="../index.html">
+	<img src="../img/logo.svg" alt="Приватний виконавець Корецька Ірина" class="main-footer--logo">
+</a>
 
 </div>
 </footer>

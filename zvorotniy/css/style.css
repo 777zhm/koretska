@@ -17,7 +17,8 @@ body {
     font-family: "GothamPro", sans-serif;
     background-color: #fff;
     width: 40%;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
+    margin: auto;
     padding: 80px 50px 25px 50px;
     -webkit-border-radius: 40px;
             border-radius: 40px;
@@ -26,9 +27,10 @@ body {
 
 .mail--header {
     font-size: 35px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     color: black;
     font-family: Georgia, sans-serif;
+    text-align: center;
 }
 
 .mail--text {
@@ -37,6 +39,9 @@ body {
     margin-bottom: 20px;
 }
 
+.center_parag{
+    text-align: center;
+} /* Заказчик попросил  */
 
 .mail--input {
     margin-top: -2px;
@@ -83,13 +88,14 @@ body {
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1385px) {
     .main {
-        background:#2b4261 url(../../img/mail-bg.png) 95% 50% no-repeat;
+        /*background:#2b4261 url(../../img/mail-bg.png) 95% 50% no-repeat;*/
         -webkit-background-size: 28% 28%;
                 background-size: 28%;
     }
 
     .mail {
         width: 45%;
+        margin: auto;
     }
 }
 
@@ -101,13 +107,14 @@ body {
 
 @media screen and (max-width: 1115px) {
     .main {
-        background:#2b4261 url(../../img/mail-bg.png) 100% 50% no-repeat;
+        /*background:#2b4261 url(../../img/mail-bg.png) 100% 50% no-repeat;*/
         -webkit-background-size: 28% 28%;
                 background-size: 28%;
     }
 
     .mail {
-        margin-left: 80px;
+        /*margin-left: 80px;*/
+        margin: auto;
         width: 55%;
     }
 }
