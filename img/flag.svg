@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="27px" viewBox="0 0 45 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 51</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.5%" y="-6.0%" width="107.0%" height="112.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="12" width="43" height="13"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1387.000000, -38.000000)">
+            <g id="Group-51" filter="url(#filter-1)" transform="translate(1388.000000, 39.000000)">
+                <g id="Group-50" fill="#0082DF">
+                    <rect id="Rectangle-6" x="0" y="0" width="43" height="25"></rect>
+                </g>
+                <g id="Rectangle-9">
+                    <use fill="#FFD000" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#FFD000" stroke-width="1" x="0.5" y="12.5" width="42" height="12"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

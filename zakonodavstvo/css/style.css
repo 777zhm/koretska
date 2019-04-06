@@ -1,0 +1,91 @@
+/*LEGISLATION*/
+.legislation {
+    padding: 50px 170px;
+    padding-right: 0;
+    font-family: "Georgia", sans-serif;
+    color:  #797979;
+}
+
+.legislation--header {
+    font-size: 40px;
+    color: #2f3846;
+    margin-bottom: 60px;
+}
+
+.legislation--item {
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.legislation--item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -65px;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    background: url(../../img/emblem.svg) center/contain no-repeat;
+}
+
+.legislation--item:hover .legislation--link {
+    text-decoration: underline;
+}
+
+.legislation--link {
+    display: block;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1195px) {
+    .legislation {
+        padding-left: 160px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .legislation {
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .legislation {
+        padding-left: 85px;
+    }
+
+    .legislation--item::before {
+        left: -50px;
+    }
+
+    .legislation--header {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .legislation {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .legislation--header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .legislation--header {
+        font-size: 26px;
+    }
+
+    .legislation--item {
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 46.1 40" style="enable-background:new 0 0 46.1 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2A3540;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#2A3540;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>Page 1</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1_1_">
+	<g id="О-нас" transform="translate(-220.000000, -1327.000000)">
+		<g id="Page-1" transform="translate(221.000000, 1328.000000)">
+			<path id="Stroke-1" class="st0" d="M41.2,32.5h-39c-1.5,0-2.6-1.2-2.6-2.6V2.1c0-1.4,1.2-2.6,2.6-2.6h39.7c1.5,0,2.6,1.2,2.6,2.6
+				v12.1v17.4C44.5,31.5,44.6,32.5,41.2,32.5z"/>
+			<polyline id="Stroke-3" class="st0" points="-0.5,25.5 41,25.5 44.5,25.5 			"/>
+			<path id="Stroke-5" class="st1" d="M19.5,28.5h6"/>
+			<path id="Stroke-7" class="st0" d="M29.5,36.5h-15c-1.1,0-2,0.5-2,1.2v0.8h19v-0.8C31.5,37,30.6,36.5,29.5,36.5z"/>
+			<path id="Stroke-9" class="st0" d="M17.5,32.5l-2,4"/>
+			<path id="Stroke-11" class="st0" d="M26.5,32.5l2,4"/>
+		</g>
+	</g>
+</g>
+</svg>
