@@ -159,7 +159,7 @@ img {
 .main-footer {
     background: url(../img/footer-bg.jpg) center/cover no-repeat;
     color: white;
-    padding: 70px 0;
+    padding: 18px 0 36px;
     text-align: center;
 }
 
@@ -173,7 +173,7 @@ img {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 36px;
 }
 
 .contacts--item {
@@ -218,7 +218,7 @@ img {
 
 .main-footer--logo {
     width: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 36px;
 }
 
 .main-footer {
@@ -234,15 +234,15 @@ img {
     }
 
     .main-footer {
-        padding: 50px 0;
+        padding: 18px 0 36px;
     }
 
     .contacts--list {
-        margin-bottom: 70px;
+        margin-bottom: 36px;
     }
 
     .main-footer--logo {
-        margin-bottom: 70px;
+        margin-bottom: 36px;
     }
 }
 
@@ -255,7 +255,7 @@ img {
 
     .contacts--list {
         display: block;
-        margin-bottom: 50px;
+        margin-bottom: 36px;
     }
 
     .contacts--item {
@@ -279,7 +279,7 @@ img {
     }
 
     .main-footer--logo {
-        margin-bottom: 50px;
+        margin-bottom: 36px;
         width: 100px;
     }
 }
@@ -339,7 +339,7 @@ img {
 
     .main-footer--logo {
         width: 87px;
-        margin-bottom: 30px;
+        margin-bottom: 36px;
     }
 }
 
