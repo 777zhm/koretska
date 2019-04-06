@@ -89,7 +89,7 @@ img {
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
-    margin-right: auto;  
+    /*margin-right: auto; */ 
 }
 
 .nav--list {
