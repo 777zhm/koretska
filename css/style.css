@@ -1,14 +1,13 @@
 /*MAIN*/
 .main {
     /*background: url(../img/main-bg.jpg) center/cover no-repeat;*/
-    background-image: url(../img/main-bg.jpg);
+    background-image: url(../img/main-bg.png);
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    background-size: contain;
     background-position: center center;
     padding-left: 170px;
     padding-top: 130px;
-    padding-bottom: 140px;
     font-family: Georgia, sans-serif;
     font-size: 23px;   
 }
@@ -26,7 +25,7 @@
 
 .main--addition {
     color: #6C7E9B;
-    margin-bottom: 140px;
+    margin-bottom: 80px;
     letter-spacing: 1px;
 }
 
@@ -49,7 +48,7 @@
     font-size: 21px;
     letter-spacing: 1.5px;
     color: black;
-    margin-bottom: 200px;
+    margin-bottom: 110px;
     padding: 13px 20px;
     border: 2px solid #83817F;
     border-radius: 7px;
