@@ -1,10 +1,11 @@
 /*MAIN*/
 .main {
     /*background: url(../img/main-bg.jpg) center/cover no-repeat;*/
-    background-image: url(../img/main-bg.png);
+    background-image: url(../img/main-bg.jpg);
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
+    background-color: #F9F8F3;
+    -webkit-background-size: 70%;
+    background-size: 70%;
     background-position: center center;
     padding-left: 170px;
     padding-top: 130px;
@@ -251,6 +252,10 @@
         padding-left: 80px;
         padding-top: 80px;
         font-size: 20px;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+    
     }
 
     .main--important {
@@ -300,6 +305,10 @@
         padding-left: 50px;
         padding-top: 50px;
         font-size: 18px;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+    
     }
 
     .main--important {
@@ -352,6 +361,10 @@
     .main {
         padding-left: 30px;
         padding-top: 30px;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+    
     }
 }
 
@@ -359,6 +372,9 @@
     .main {
         padding-left: 0;
         font-size: 17px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
     }
 
     .main--important {
@@ -419,6 +435,10 @@
 @media screen and (max-width: 680px) {
     .main {
         padding-left: 10px;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        
     }
 
     .main--wrapper {
@@ -482,6 +502,9 @@
         padding-left: 50px;
         background-image: url(../img/main-bg-mob.jpg);
         font-size: 18px;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 
     .main--wrapper {
@@ -530,6 +553,9 @@
 @media screen and (max-width: 427px) {
     .main {
         padding-left: 10px;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 
     .main--addition {
@@ -544,6 +570,9 @@
 @media screen and (max-width: 378px) {
     .main {
         font-size: 15px;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 
     .main--addition,
