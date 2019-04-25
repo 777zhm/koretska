@@ -23,6 +23,7 @@
 	width: 36%;
 	height: auto;
 	margin-right: 60px;
+	flex-shrink: 0; /*for firefox*/
 }
 
 .about--text {
