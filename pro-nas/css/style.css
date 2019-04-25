@@ -16,6 +16,7 @@
 .about--wrap {
 	display: flex;
 	align-items: center;
+	margin-bottom: 40px;
 }
 
 .about--photo {
@@ -26,6 +27,12 @@
 
 .about--text {
 	margin-bottom: 20px;
+}
+
+.about--header{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .main--bold {
